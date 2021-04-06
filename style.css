@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+h2{
+	font-size: 26px;
+	color: #13162C;
+	font-weight: normal;
+}
+#app{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #EBECF4;
+}
+.container{
+	width: 965px;
+	height: 657px;
+	background-color: #FFF;
+	border-radius: 15px;
+	display: flex;
+}
+.content-one{
+	height: 100%;
+	width: 60%;
+}
+.content-two{
+	height: 100%;
+	width: 40%;	
+}
+.card{
+	background-color: #EBECF4;
+	margin-top: 45px;
+	margin-left: 45px;
+	height: 398px;
+	width: 556px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.container-margin{
+	padding-left: 55px;
+}
+.tags{
+	padding-left: 90px;
+}
+.tags > ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.tags > ul >li{
+	padding-right: 25px;
+}
+.tags > ul >li:last-child{
+	padding-right: 0;
+}
+.card > div > form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.card > div > form > span {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.card > div > form > input{
+	background-color: #ffffff ;
+	border: none;
+	border-radius: 5px;
+	width: 422px;
+	height: 65px;
+}
+.aside > div{
+	position: relative;
+	display: flex;
+	width: 48px;
+	height: 48px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.aside > div::before{
+	content: '';
+}
